@@ -1,0 +1,191 @@
+body, html {
+    height: 100%;
+}
+
+.topnav {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 10px solid dimgray;
+}
+
+.topnav img {
+    border-radius: 50%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("books.jpg");
+
+  height: 70%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+}
+
+a:hover {
+    color:#fff;
+    text-decoration: underline;
+}
+
+.menu {
+    font-size: 50px;
+    color: grey;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 10px solid dimgray;
+    border-top: 10px solid dimgray;
+}
+.menu-item {
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+ }
+ 
+.menu a:link {
+    color:dimgray;
+    text-decoration: none;
+ }
+
+ .menu a:active {
+    color: dimgray;
+    text-decoration: none;
+ }
+
+ .menu a:visited {
+    color:dimgray;
+    text-decoration: none;
+ }
+
+ .menu a:hover {
+    color:black;
+    text-decoration: underline;
+ }
+
+ .numbers {
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+ .numbers a:link {
+    color: dimgray;
+    text-decoration: none;
+ }
+
+ .numbers a:active {
+    color: dimgray;
+    text-decoration: none;
+ }
+
+ .numbers a:visited {
+    color: dimgray;
+    text-decoration: none;
+ }
+
+ .numbers a:hover {
+    color: black;
+    text-decoration: underline;
+ }
+
+ .listing1 {
+    border-bottom: 10px solid dimgray;
+    border-top: 10px solid dimgray;
+    padding: 20px;
+    background-image: url("movies.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ }
+
+ .listing2 {
+    border-bottom: 10px solid dimgray;
+    border-top: 10px solid dimgray;
+    padding: 20px;
+    background-image: url("books.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ }
+
+ .listing3 {
+    border-bottom: 10px solid dimgray;
+    border-top: 10px solid dimgray;
+    padding: 20px;
+    background-image: url("audio.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ }
+
+ .profiletitle {
+    padding: 20px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 10px solid dimgray;
+    border-top: 10px solid dimgray;
+    color: dimgray;
+ }
+
+ .info {
+    padding: 160px;
+    border-bottom: 12px solid dimgray;
+    border-top: 10px solid dimgray;
+    background-image: url(library.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ .list-group {
+    width: 500px;
+    position: relative;
+    left:25%;
+    top:35%;
+ }
+
+ .logout {
+    position:absolute;
+   left: 27%;
+   top: 120%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+ .about {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: dimgray;
+    text-align: center;
+    padding: 40px;
+ }
+
+ .logos {
+    text-align: center;
+    font-size: 40px;
+ }
+
+ .cart {
+    padding: 100px;
+    border-bottom: 12px solid dimgray;
+    border-top: 10px solid dimgray;
+ }
+
+ .logout {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: dimgray;
+    text-align: center;
+    padding: 40px;
+ }
